@@ -1,26 +1,32 @@
 # First level story
 
+# Determined, aggressive grunt
 					VROTBEK
 All right, this is it. It's just you and me, Teef.
 
+# Nervous whining
 					TEEF
 // Est-ce vraiment une bonne idée? Nous sommes seules... il y a bien trop d'ennemis, est-ce meme possible de les arreter?
 
 Is it really a good idea? We only ... there are too many enemies, is it even possible to stop?
 
+# Angry growl
 					VROTBEK
 Rox 'em. Those fuckers are taking our bones! Our BONES, Teef!
 Those shlack won't get away with this.
 
+# Sigh
 					TEEF
 // Soupir... Avec vous j'ai vu toutes les couleurs, Vrotbek.
 
 Sigh ... With you I have seen all colors Vrotbek.
 
+# Resigned noise - he knows he's not getting out of this
 // Bon. Allons-y... je vous suivrez, mais j'ai une peur bleue de n'y pas retourner.
 
 Good. Come on ... I follow you, but I have a blue fear of no return.
 
+# Ugu〜
 Ugu〜
 
 
@@ -31,18 +37,22 @@ Bones, bones, bones!
 
 He notices VROTBEK and TEEF.
 
+# Angry "hey"
 					BOSS
 // Vous etes en retard! Vous idiots avez un poil dans la main.
 
 You're late! You idiots have a bit in hand.
 
+# Maniacal sound
 // Vous m'avez laissez seul avec ces os... ces os magnifique!
 
 You leave me alone with these bones ... these beautiful bones!
 
+# Aggressive yell
 					VROTBEK
 The only bones left when we're done here will be YOURS, asshaver.
 
+# Shocked noise
 					BOSS
 // Quoi? Vous parlez à tort et à travers.
 // Trop d'os, trop peu de temps!
@@ -59,6 +69,7 @@ Dance, my disaster! Dance!
 
 # After the battle
 
+# Weak, pained dying sound
 					BOSS
 // Les bras m'en tombent! Est-ce... la fin?
 
