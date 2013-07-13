@@ -1,83 +1,48 @@
-# First level story
-
-# Determined, aggressive grunt
+# Before stage 1
 					VROTBEK
 All right, this is it. It's just you and me, Teef.
 
-# Nervous whining
 					TEEF
-// Est-ce vraiment une bonne idée? Nous sommes seules... il y a bien trop d'ennemis, est-ce meme possible de les arreter?
-
 Is it really a good idea? We only ... there are too many enemies, is it even possible to stop?
 
-# Angry growl
 					VROTBEK
 Rox 'em. Those fuckers are taking our bones! Our BONES, Teef!
 Those shlack won't get away with this.
 
-# Sigh
 					TEEF
-// Soupir... Avec vous j'ai vu toutes les couleurs, Vrotbek.
-
 Sigh ... With you I have seen all colors Vrotbek.
-
-# Resigned noise - he knows he's not getting out of this
-// Bon. Allons-y... je vous suivrez, mais j'ai une peur bleue de n'y pas retourner.
 
 Good. Come on ... I follow you, but I have a blue fear of no return.
 
-# Ugu〜
 Ugu〜
 
 
-# First boss battle
-
+# Before boss
 					BOSS
 Bones, bones, bones!
 
 					VROTBEK
-(Some form of angry shout)
+(Some form of battlecry)
 
-# Angry "hey"
 					BOSS
-// Vous etes en retard! Vous idiots avez un poil dans la main.
-
-# Maniacal sound
-// Vous m'avez laissez seul avec ces os... ces os magnifique!
-
 You're late! You leave me alone with these bones ... these beautiful bones!
 
-# Aggressive yell
 					VROTBEK
 The only bones left when we're done here will be YOURS, asshaver.
 
-# Shocked noise
 					BOSS
-// Quoi? Vous parlez à tort et à travers.
-// Trop d'os, trop peu de temps!
-
 What? Your blitherings are meaningless.
 Too many bones, too little time!
-
-// Pour vous inspirer... voici! Ma découverte favori.
-// Danse, mon catastrophe! Danse!
 
 To inspire you ... here! My favorite discovery.
 Dance, my disaster! Dance!
 
 
-# After the battle
-
-# Weak, pained dying sound
+# After boss
 					BOSS
-// Les bras m'en tombent! Est-ce... la fin?
-
 This cannot be! Is it ... the end?
 
 					TEEF
-// Nous allons t'enterrer avec tes os.
-// C'est le prix de la nécromantie.
-
 We will bury you with your bones.
 This is the price of necromastery.
 
