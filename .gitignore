@@ -5,3 +5,4 @@ Temp
 *.unityproj
 *.pidb
 *.userprefs
+.DS_Store
