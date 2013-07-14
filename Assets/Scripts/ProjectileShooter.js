@@ -12,6 +12,12 @@ function Start () {
 function Update () {
 }
 
+/* Fires multiple waves of spread shots.
+ * z : float: The vertical (towards the player) speed of the shot.
+ * number_of_shots : int
+ * number_of_waves : int
+ * angle : direction: Fire left or right. Value must be from the direction enum.
+ */
 function FireSpreads (z : float, number_of_shots : int, number_of_waves: int, angle : direction) {
 	for (var i = 0; i < number_of_waves; i++) {
 		FireSpread(z, number_of_shots, angle);
@@ -19,6 +25,8 @@ function FireSpreads (z : float, number_of_shots : int, number_of_waves: int, an
 	}
 }
 
+/* Fires a single wave of one or more horizontally-aligned shots.
+ */
 function FireSpread (z : float, number_of_shots : int, angle : direction) {
 	for (var i = 0; i < number_of_shots; i++) {
 		var x : float = number_of_shots/2 - number_of_shots + i;
@@ -28,6 +36,10 @@ function FireSpread (z : float, number_of_shots : int, angle : direction) {
 	}
 }
 
+/* Fires a single shot.
+ * x : float: The horizontal speed of the shot.
+ * z : float: The vertical speed of the shot.
+ */
 function Fire (x : float, z : float) {
 	var bullet = Instantiate(projectile, Vector3(transform.position.x, transform.position.y, transform.position.z - 1.0), transform.rotation);
 	var movement = bullet.GetComponent(BulletMovement);
