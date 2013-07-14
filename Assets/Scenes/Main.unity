@@ -206,6 +206,8 @@ GameObject:
   - 23: {fileID: 1116045085}
   - 114: {fileID: 1116045084}
   - 20: {fileID: 1116045089}
+  - 114: {fileID: 1116045090}
+  - 114: {fileID: 1116045091}
   m_Layer: 0
   m_Name: Option
   m_TagString: Untagged
@@ -303,6 +305,32 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
+--- !u!114 &1116045090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116045083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74b38824ac4b4a07a83ebd0f7962865, type: 3}
+  m_Name: 
+  shotHandler: {fileID: 0}
+  shotSpacing: .300000012
+  shooting: 0
+--- !u!114 &1116045091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116045083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604649777cffb4b188f6cd06d09b5696, type: 3}
+  m_Name: 
+  projectile: {fileID: 400002, guid: e4789ed3549ab4dd7807fb22bb6c5264, type: 2}
+  timeBetweenShots: .150000006
+  timeBetweenWaves: .699999988
 --- !u!1 &1171547515
 GameObject:
   m_ObjectHideFlags: 0
