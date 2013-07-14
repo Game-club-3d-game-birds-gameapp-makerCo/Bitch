@@ -6,3 +6,4 @@ Temp
 *.pidb
 *.userprefs
 .DS_Store
+Assets/Uni2D*
