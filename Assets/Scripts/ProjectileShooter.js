@@ -6,7 +6,6 @@ var timeBetweenWaves : float = 0.7;
 enum direction { left, right };
 
 function Start () {
-	FireSpreads(1.0, 6, 3, direction.right);
 }
 
 function Update () {
