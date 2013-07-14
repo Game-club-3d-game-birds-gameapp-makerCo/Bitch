@@ -68,6 +68,7 @@ MonoBehaviour:
   velocityX: 1
   velocityZ: 1
   timeToLive: 9
+  direction: {x: 0, y: 0, z: 1}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
