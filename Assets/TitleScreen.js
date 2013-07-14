@@ -8,6 +8,6 @@ function Start () {
 
 function Update () {
 	if(Input.GetKey('space')) {
-		Application.LoadLevel('Main');
+		Application.LoadLevel('Story');
 	}
 }
