@@ -8,6 +8,6 @@ function Start () {
 }
 
 function Update () {
-	transform.position.z = transform.position.z - velocityZ;
-	transform.position.x = transform.position.x - velocityX;
+	transform.Translate(-Vector3.forward * Time.deltaTime * velocityZ);
+	transform.Translate(Vector3.right * Time.deltaTime * velocityX);
 }
