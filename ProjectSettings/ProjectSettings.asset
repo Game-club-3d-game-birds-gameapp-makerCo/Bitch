@@ -11,11 +11,11 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Game Builder Club and Building 3d Game Birds Gameapp Maker Co.
-  productName: Bitch
+  productName: Hyenas are Full of Excitement
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
   defaultScreenWidthWeb: 1024
   defaultScreenHeightWeb: 768
   m_RenderingPath: 1
@@ -61,10 +61,10 @@ PlayerSettings:
     width: 0
     height: 0
   m_SupportedAspectRatios:
-    4:3: 1
+    4:3: 0
     5:4: 0
     16:10: 0
-    16:9: 0
+    16:9: 1
     Others: 0
   iPhoneBundleIdentifier: com.Company.ProductName
   iPhoneBundleVersion: 1.0
