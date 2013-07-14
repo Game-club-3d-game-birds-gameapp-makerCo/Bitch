@@ -17,9 +17,18 @@ function Update () {
  * number_of_waves : int
  * angle : direction: Fire left or right. Value must be from the direction enum.
  */
-function FireSpreads (z : float, number_of_shots : int, number_of_waves: int, angle : direction) {
+function FireSpreads (z : float, number_of_shots : int, number_of_waves : int, angle : direction) {
 	for (var i = 0; i < number_of_waves; i++) {
 		FireSpread(z, number_of_shots, angle);
+		yield WaitForSeconds(timeBetweenWaves);
+	}
+}
+
+function FireSpiderweb (z : float, number_of_shots : int, number_of_waves : int, angle : direction) {
+	currentAngle = angle;
+	for (var i = 0; i < number_of_waves; i++) {
+		FireSpread(z, number_of_shots, angle);
+		currentAngle = (currentAngle == direction.left) ? direction.right : direction.left;
 		yield WaitForSeconds(timeBetweenWaves);
 	}
 }
