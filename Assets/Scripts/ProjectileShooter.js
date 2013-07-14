@@ -25,7 +25,7 @@ function FireSpreads (z : float, number_of_shots : int, number_of_waves : int, a
 }
 
 function FireSpiderweb (z : float, number_of_shots : int, number_of_waves : int, angle : direction) {
-	currentAngle = angle;
+	var currentAngle = angle;
 	for (var i = 0; i < number_of_waves; i++) {
 		FireSpread(z, number_of_shots, currentAngle);
 		currentAngle = (currentAngle == direction.left) ? direction.right : direction.left;
