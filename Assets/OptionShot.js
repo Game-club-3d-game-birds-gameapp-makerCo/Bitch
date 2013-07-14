@@ -17,7 +17,7 @@ function Update () {
 function Fire () {
 	if(Input.GetKey('space')) {
 		shooting = true;
-		shotHandler.Fire(0, 1.0 + player.currentRunSpeed);
+		shotHandler.Fire(0, 5.0 + player.currentRunSpeed);
 		yield WaitForSeconds(shotSpacing);
 		shooting = false;
 	}
