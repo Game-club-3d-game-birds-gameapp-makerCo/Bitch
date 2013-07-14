@@ -1,0 +1,43 @@
+VROTBEK
+Hyena barbarian, destroyer of worlds.
+
+Vrotbek is the only member of her tribe who refused to submit to the necromasters. Rather than surrender, she broke out and set out to single-handedly carve her way through the enemy army.
+
+Personality / dialogue style:
+Vrotbek is brash, aggressive, and afraid of absolutely nothing.
+
+She is intensely profane and her dialogue is frequently punctuated with both real and invented profanity regardless of how appropriate it is.
+
+Voice:
+Deep, aggressive barbarian voice.
+
+
+TEEF
+Wilting flower mage.
+
+Teef is the fantasy stereotype of the gentle support mage. His story is of secondary importance and he's there to back up Vrotbek. He didn't really want to come but she would not take no for an answer.
+
+Personality / dialogue style:
+Teef is shy and timid, which isn't a great characteristic for a warrior. He depends on Vrotbek to prod him into action.
+
+Voice:
+Light, airy, usually nervous and unsure of himself.
+
+
+BOSS 1
+A bone enthusiast. Full of excitement, he fights his first battle well.
+
+This deep-voiced necromancer appears impressive, but is actually a complete novice who somehow talked his way into a frontline position. It's not clear he understands the point of the war. He sounds impressive and dangerous even when he's not saying anything moderately threatening or logical.
+
+Voice:
+Deep-voiced, evil sorceror. Always maintains character even when what he's saying doesn't fit.
+
+
+BOSS VOCALIZATIONS NEEDED:
+* "Ha!" or "Take this!" attack shouts
+* "Unh!" pain sound, for when he takes major damage
+* Dying sound
+
+* "Dance, my disaster! Dance!"
+* "Too many bones, too little time!"
+
