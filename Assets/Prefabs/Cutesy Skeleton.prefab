@@ -141,7 +141,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 604649777cffb4b188f6cd06d09b5696, type: 3}
   m_Name: 
-  projectile: {fileID: 400000, guid: 196587b04bc444abab092bea97f1b005, type: 2}
+  projectile: {fileID: 400000, guid: dcc50f17a50b343ec98991e5c65dac8a, type: 2}
   timeBetweenShots: .150000006
   timeBetweenWaves: .699999988
 --- !u!114 &11400006
@@ -154,10 +154,17 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: daea920f56b434716ae5e9ae1b5b8c04, type: 3}
   m_Name: 
+  shotHandler: {fileID: 0}
+  x: 1
+  z: 1
+  angle: {x: 1, y: 0, z: 0}
   awake: 0
   shot: 0
   player: {fileID: 0}
   distanceToPlayer: 1
+  waves: 2
+  bullets_per_wave: 5
+  pattern: 2
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
