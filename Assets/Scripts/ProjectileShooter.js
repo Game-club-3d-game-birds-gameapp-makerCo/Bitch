@@ -61,7 +61,7 @@ function FireColumn (x : float, z : float, number_of_shots : int) {
  * z : float: The vertical speed of the shot.
  */
 function Fire (x : float, z : float) {
-	var bullet = Instantiate(projectile, Vector3(transform.position.x, transform.position.y, transform.position.z - 1.0), transform.rotation);
+	var bullet = Instantiate(projectile, transform.position, Quaternion.LookRotation(-Vector3.forward));
 	var movement = bullet.GetComponent(BulletMovement);
 	movement.velocityX = x;
 	movement.velocityZ = z;
