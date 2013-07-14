@@ -4,7 +4,7 @@ var shotHandler : ProjectileShooter;
 
 var x = 1.0;
 var z = 1.0;
-var angle : direction = ProjectileShooter.direction.left;
+var angle : Vector3 = Vector3.right;
 
 var awake = false;
 var shot = false;

@@ -3,7 +3,6 @@
 var projectile : Transform;
 var timeBetweenShots : float = 0.15;
 var timeBetweenWaves : float = 0.7;
-enum direction { left, right };
 
 function Start () {
 }
@@ -15,30 +14,30 @@ function Update () {
  * z : float: The vertical (towards the player) speed of the shot.
  * number_of_shots : int
  * number_of_waves : int
- * angle : direction: Fire left or right. Value must be from the direction enum.
+ * angle : direction: Fire left or right. Value must be Vector3.left or Vector3.right.
  */
-function FireSpreads (z : float, number_of_shots : int, number_of_waves : int, angle : direction) {
+function FireSpreads (z : float, number_of_shots : int, number_of_waves : int, angle : Vector3) {
 	for (var i = 0; i < number_of_waves; i++) {
 		FireSpread(z, number_of_shots, angle);
 		yield WaitForSeconds(timeBetweenWaves);
 	}
 }
 
-function FireSpiderweb (z : float, number_of_shots : int, number_of_waves : int, angle : direction) {
+function FireSpiderweb (z : float, number_of_shots : int, number_of_waves : int, angle : Vector3) {
 	var currentAngle = angle;
 	for (var i = 0; i < number_of_waves; i++) {
 		FireSpread(z, number_of_shots, currentAngle);
-		currentAngle = (currentAngle == direction.left) ? direction.right : direction.left;
+		currentAngle = -currentAngle;
 		yield WaitForSeconds(timeBetweenWaves);
 	}
 }
 
 /* Fires a single wave of one or more horizontally-aligned shots.
  */
-function FireSpread (z : float, number_of_shots : int, angle : direction) {
+function FireSpread (z : float, number_of_shots : int, angle : Vector3) {
 	for (var i = 0; i < number_of_shots; i++) {
 		var x : float = number_of_shots/2 - number_of_shots + i;
-		if (angle == direction.left) { x = -x; }
+		if (angle == Vector3.left) { x = -x; }
 		yield WaitForSeconds(timeBetweenShots);
 		Fire(x/10, z);
 	}
