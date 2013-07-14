@@ -4,7 +4,6 @@ var velocityX : float = 1.0;
 var velocityZ : float = 1.0;
 var timeToLive : float = 9.0;
 var direction = -Vector3.forward;
-var player : Transform;
 
 function Start () {
 	Destroy(gameObject, timeToLive);
