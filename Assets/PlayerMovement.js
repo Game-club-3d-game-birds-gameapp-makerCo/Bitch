@@ -4,7 +4,7 @@ public var playAreaWidth = 14.0;
 public var playAreaHeight = 5.0;
 public var avatar : GameObject;
 public var baseRunSpeed = 5.0;
-private var currentRunSpeed = baseRunSpeed;
+public var currentRunSpeed = baseRunSpeed;
 
 function Start () {
 	currentRunSpeed = baseRunSpeed;
