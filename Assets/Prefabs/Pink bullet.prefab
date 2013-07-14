@@ -125,7 +125,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5feb8534a62a44dda925444a39757ce3, type: 3}
   m_Name: 
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d809f859bf5e0401b9ba9dc1ce2b1722, type: 3}
   m_Name: 
   velocityX: 1
-  velocityZ: 1
+  velocityZ: 2
   timeToLive: 9
   direction: {x: -0, y: -0, z: -1}
 --- !u!1001 &100100000
