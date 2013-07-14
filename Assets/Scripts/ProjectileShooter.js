@@ -36,6 +36,19 @@ function FireSpread (z : float, number_of_shots : int, angle : direction) {
 	}
 }
 
+/* Fires a column of shots in the same direction. They will be spaced out
+   according to the timeBetweenShots property.
+   x : float: horizontal speed
+   z : float: vertical speed
+   number_of_shots : int
+ */
+function FireColumn (x : float, z : float, number_of_shots : int) {
+	for (var i = 0; i < number_of_shots; i++) {
+		Fire(x, z);
+		yield WaitForSeconds(timeBetweenShots);
+	}
+}
+
 /* Fires a single shot.
  * x : float: The horizontal speed of the shot.
  * z : float: The vertical speed of the shot.
