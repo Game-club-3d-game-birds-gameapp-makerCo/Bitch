@@ -2,9 +2,10 @@
 
 var velocityX : float = 1.0;
 var velocityZ : float = 1.0;
+var timeToLive : float = 9.0;
 
 function Start () {
-
+	Destroy(gameObject, timeToLive);
 }
 
 function Update () {

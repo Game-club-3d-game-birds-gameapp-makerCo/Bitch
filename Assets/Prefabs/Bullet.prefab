@@ -67,6 +67,7 @@ MonoBehaviour:
   m_Name: 
   velocityX: 1
   velocityZ: 1
+  timeToLive: 9
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
