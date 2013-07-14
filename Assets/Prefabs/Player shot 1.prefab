@@ -11,6 +11,7 @@ GameObject:
   - 114: {fileID: 11400000}
   - 23: {fileID: 2300000}
   - 33: {fileID: 3300000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Player shot 1
   m_TagString: Untagged
@@ -117,6 +118,20 @@ MonoBehaviour:
     m_rAnimationClips: []
     m_iStartClipIndex: 0
     playAutomatically: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d809f859bf5e0401b9ba9dc1ce2b1722, type: 3}
+  m_Name: 
+  velocityX: 1
+  velocityZ: 1
+  timeToLive: 9
+  direction: {x: -0, y: -0, z: -1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
