@@ -1,8 +1,8 @@
 #pragma strict
 
 var projectile : Transform;
-var timeBetweenShots : float = 0.5;
-var timeBetweenWaves : float = 1.0;
+var timeBetweenShots : float = 0.15;
+var timeBetweenWaves : float = 0.7;
 enum direction { left, right };
 
 function Start () {
